@@ -4,5 +4,5 @@ applications:
    memory: 512M
    disk_quota: 2048M
    routes:
-   - route: https://tj-classifier.herokuapp.com/
+   - route: https://tj-classifier.ew.r.appspot.com
    command: npm run start-prod
