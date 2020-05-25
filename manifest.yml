@@ -1,8 +1,8 @@
 ---
 applications:
  - name: tj-classifier
-   memory: 2048M
-   disk_quota: 2048M
+   memory: 2000M
+   disk_quota: 2000M
    routes:
    - route: tj-classifier.eu-gb.mybluemix.net
    command: npm run start-prod
