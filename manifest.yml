@@ -1,8 +1,8 @@
 ---
 applications:
- - name: web-classify
-   memory: 512M
+ - name: tj-classifier
+   memory: 2048M
    disk_quota: 2048M
    routes:
-   - route: https://tj-classifier.ew.r.appspot.com
+   - route: tj-classifier.eu-gb.mybluemix.net
    command: npm run start-prod
