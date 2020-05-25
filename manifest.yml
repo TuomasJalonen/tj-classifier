@@ -1,7 +1,7 @@
 ---
 applications:
  - name: tj-classifier
-   memory: 2000M
+   memory: 1600M
    disk_quota: 2000M
    routes:
    - route: tj-classifier.eu-gb.mybluemix.net
