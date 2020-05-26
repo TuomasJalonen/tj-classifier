@@ -65,7 +65,7 @@ then click classify. Local inference will then be performed, and the top five re
 
 ## Contact
 
-* [LinkedIn](https://www.linkedin.com/in/tuomasjalonen/).
+* [LinkedIn](https://www.linkedin.com/in/tuomasjalonen/)
 
 ## Links
 
