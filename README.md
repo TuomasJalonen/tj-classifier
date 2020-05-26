@@ -2,6 +2,8 @@
 
 This is a TensorFlow.js web application where users can classify images selected locally or taken with their device's camera. The app uses a neural network, which can be changed according to your needs to solve your problem. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O3tmAM0hCb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 If you're interested in making this to benefit your business, please contact me on [LinkedIn](https://www.linkedin.com/in/tuomasjalonen/).
 
 ## Flow
