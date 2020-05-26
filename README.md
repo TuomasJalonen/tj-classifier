@@ -1,34 +1,12 @@
-[![Build Status](https://api.travis-ci.com/IBM/tfjs-web-app.svg?branch=master)](https://travis-ci.com/IBM/tfjs-web-app)
+# Progressive web application for offline image classification
 
-# Create a progressive web application for offline image classification
+This is a TensorFlow.js web application where users can classify images selected locally or taken with their device's camera. The app uses a neural network, which can be changed according to your needs to solve your problem. 
 
-After creating deep learning models, users typically want to deploy their trained models to be used
-in their applications. There are several ways to do this, and how users do it depends largely on
-their use cases and requirements. One such requirement is the ability to run a model offline in
-areas where Internet connectivity may be sparse or nonexistent. To do this, one solution is to
-create native apps for mobile platforms which will package and load a compressed version of their
-models. However, this has the overhead of needing developers with expertise in Android and iOS
-development.
+It is hosted on [Google Cloud](https://tj-classifier.ew.r.appspot.com) so feel free to test it!
 
-Here, we go over an alternative, easier way to satisfy this offline mobile
-requirement by
-creating a [progressive web application](https://developers.google.com/web/progressive-web-apps/)
-with our model using React and TensorFlow.js. Progressive web applications (PWAs) give a native
-app-like feel and can run on most modern web browsers. This makes cross-platform development much
-easier as the application only has to be developed once in HTML/JavaScript. Furthermore, through
-the use of [service workers](https://developers.google.com/web/fundamentals/primers/service-workers/),
-PWAs can provide fully offline functionality.
+If you're interested in making this to benefit your business, please contact me on [https://www.linkedin.com/in/tuomasjalonen/](https://www.linkedin.com/in/tuomasjalonen/).
 
-With [TensorFlow.js](https://www.tensorflow.org/js), we can convert our pre-trained TensorFlow or
-Keras models into JavaScript to be run in the browser through the app!
 
-In then end, we will have a cross-platform application where users can classify
-images selected locally or taken with their device's camera. The app uses TensorFlow.js and a
-pre-trained model converted to the TensorFlow.js format to provide the inference capabilities.
-This model is saved locally in the browser using IndexedDB, and a service worker is used to
-provide offline capabilities.
-
-![architecture](doc/images/arch-diagram.png)
 
 ## Flow
 
@@ -40,6 +18,7 @@ provide offline capabilities.
 5. User takes photo with device camera or selects local image.
 6. Image is sent through the model for inference and top predictions are given.
 
+![architecture](doc/images/arch-diagram.png)
 
 ## Included Components
 
@@ -86,6 +65,7 @@ then click classify. Local inference will then be performed, and the top five re
 
 ## Links
 
+* [Original repo](https://github.com/IBM/tfjs-web-app)
 * [TensorFlow.js](https://www.tensorflow.org/js)
 * [React](https://reactjs.org/)
 * [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
