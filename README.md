@@ -63,6 +63,10 @@ then click classify. Local inference will then be performed, and the top five re
 ![Classify with App](doc/images/app-classify.png "Classify with App")
 ![App Predictions](doc/images/app-predictions.png "App Predictions")
 
+## Contact
+
+* [LinkedIn](https://www.linkedin.com/in/tuomasjalonen/).
+
 ## Links
 
 * [Original repo](https://github.com/IBM/tfjs-web-app)
