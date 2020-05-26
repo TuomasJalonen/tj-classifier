@@ -2,11 +2,7 @@
 
 This is a TensorFlow.js web application where users can classify images selected locally or taken with their device's camera. The app uses a neural network, which can be changed according to your needs to solve your problem. 
 
-It is hosted on [Google Cloud](https://tj-classifier.ew.r.appspot.com) so feel free to test it!
-
 If you're interested in making this to benefit your business, please contact me on [LinkedIn](https://www.linkedin.com/in/tuomasjalonen/).
-
-
 
 ## Flow
 
