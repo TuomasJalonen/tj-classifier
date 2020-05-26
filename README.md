@@ -4,7 +4,7 @@ This is a TensorFlow.js web application where users can classify images selected
 
 It is hosted on [Google Cloud](https://tj-classifier.ew.r.appspot.com) so feel free to test it!
 
-If you're interested in making this to benefit your business, please contact me on [https://www.linkedin.com/in/tuomasjalonen/](https://www.linkedin.com/in/tuomasjalonen/).
+If you're interested in making this to benefit your business, please contact me on [LinkedIn](https://www.linkedin.com/in/tuomasjalonen/).
 
 
 
